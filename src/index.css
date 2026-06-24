@@ -1,0 +1,26 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --c-bg:       #fdf6e3;
+  --c-bg-2:     #f5e6c8;
+  --c-text:     #2b1d00;
+  --c-text-2:   #4a3500;
+  --c-text-3:   #7a5c00;
+  --c-border:   rgba(0,0,0,0.15);
+  --c-border-2: rgba(0,0,0,0.28);
+}
+
+html { font-size: 22px; }
+
+body {
+  font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--c-bg-2);
+  color: var(--c-text);
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+button { cursor: pointer; }
+input, select, textarea { font-family: inherit; color: var(--c-text); }
+input:focus, select:focus { outline: none; border-color: #cc7000 !important; }
